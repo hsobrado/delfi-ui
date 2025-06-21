@@ -1,2 +1,21 @@
 npm run dev
 
+git init
+git add .
+git commit -m "Initial commit"
+gh repo create delfi-ui --public --source=. --remote=origin
+git push -u origin master
+
+
+PS C:\Users\hsobr\OneDrive\D3lfi\mvp\delfi-ui> gh auth login
+? Where do you use GitHub? GitHub.com
+? What is your preferred protocol for Git operations on this host? HTTPS
+? Authenticate Git with your GitHub credentials? Yes
+? How would you like to authenticate GitHub CLI? Login with a web browser
+
+! First copy your one-time code: 926A-538E
+Press Enter to open https://github.com/login/device in your browser... 926A-538E
+✓ Authentication complete.
+- gh config set -h github.com git_protocol https
+✓ Configured git protocol
+✓ Logged in as hsobrado
