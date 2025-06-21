@@ -18,7 +18,7 @@ export default function Home() {
       });
       const data = await res.json();
       setOutput(data.result || data.error);
-    } catch (err) {
+    } catch {
       setOutput('Error: Could not connect to backend.');
     }
     setLoading(false);

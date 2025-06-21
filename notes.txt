@@ -1,3 +1,16 @@
+-------------------------------------------------
+
+npm run dev
+npm run build
+
+
+git init
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+-------------------------------------------------
+
 npm run dev
 
 git init
